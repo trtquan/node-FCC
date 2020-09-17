@@ -2,10 +2,10 @@
   "name": "fcc",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node src/server.js"
   },
   "engines": {
     "node": "10.x"
