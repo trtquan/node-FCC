@@ -2,7 +2,7 @@
 	"name": "fcc-learn-npm-package-json",
 	"author": "Quan Tran",
 	"description": "Let's be Node Gladitor",
-	"keywords": ["freecodecap"],
+	"keywords": ["freecodecamp"],
 	"dependencies": {
 		"express": "^4.14.0"
 	},
