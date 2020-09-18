@@ -59,7 +59,7 @@ app.get("/:word/echo", (req, res) => {
 // /name?first=<firstname>&last=<lastname>
 app.get('/name', (req, res) => {
 	console.log(`${req.query.first} ${req.query.last}`, "<-this");
-	res.json({name: `${req.query.first} ${req.query.last}`});
+	res.json({name: `${req.body.first} ${req.body.last}`});
 });
 /** 11) Get ready for POST Requests - the `body-parser` */
 // place it before all the routes !
