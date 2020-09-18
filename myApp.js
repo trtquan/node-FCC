@@ -9,11 +9,13 @@ var app = express();
 console.log("Hello World");
 
 /** 2) A first working Express Server */
-app.get('/', (req, res) => {
-	res.send("Hello Express");
-})
+// app.get('/', (req, res) => {
+// 	res.send("Hello Express");
+// })
 /** 3) Serve an HTML file */
-
+app.get('/', (req, res) => {
+	res.sendFile(__dirname + "/views/index.html")
+});
 /** 4) Serve static assets  */
 
 /** 5) serve JSON on a specific route */
