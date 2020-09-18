@@ -3,6 +3,7 @@
 	"author": "Quan Tran",
 	"description": "Let's be Node Gladitor",
 	"keywords": ["freecodecamp"],
+	"license": "MIT",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
