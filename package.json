@@ -1,6 +1,7 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "Quan Tran",
+	"description": "Let's be Node Gladitor",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
