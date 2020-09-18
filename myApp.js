@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();
-require('dotenv').config;
+require('dotenv').config();
 // --> 7)  Mount the Logger middleware here
 
 // --> 11)  Mount the body-parser middleware  here
