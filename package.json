@@ -1,11 +1,14 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "Quan Tran",
+	"version": "1.0.0",
+
 	"description": "Let's be Node Gladitor",
 	"keywords": ["freecodecamp"],
 	"license": "MIT",
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.14.0",
+		"moment": "2.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
