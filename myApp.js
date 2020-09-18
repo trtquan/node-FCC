@@ -2,7 +2,10 @@ var express = require("express");
 var app = express();
 require('dotenv').config();
 // --> 7)  Mount the Logger middleware here
+app.use(function(req, res, next) {
+	console.log((req.method+ ' ' + req.path+ ' ' + req.ip));
 
+})
 // --> 11)  Mount the body-parser middleware  here
 
 /** 1) Meet the node console. */
