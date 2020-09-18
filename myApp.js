@@ -9,10 +9,11 @@ app.use(function(req, res, next) {
 	next()
 });
 // --> 11)  Mount the body-parser middleware  here
-app.use((req, res, next) => {
-	bodyParser.urlencoded({extended: false})
-	next();
-})
+app.use(bodyParser.urlencoded({ extended: false }))
+ 
+// parse application/json
+app.use(bodyParser.json())
+
 /** 1) Meet the node console. */
 console.log("Hello World");
 
