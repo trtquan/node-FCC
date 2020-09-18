@@ -59,14 +59,14 @@ app.get("/:word/echo", (req, res) => {
 // /name?first=<firstname>&last=<lastname>
 app.get('/name', (req, res) => {
 	console.log(`${req.query.first} ${req.query.last}`, "<-this");
-	res.json({name: `${req.body.first} ${req.body.last}`});
+	res.json({name: `${req.query.first} ${req.query.last}`});
 });
 /** 11) Get ready for POST Requests - the `body-parser` */
 // place it before all the routes !
 
 /** 12) Get data form POST  */
 app.post("/name", (req, res) => {
-	res.json({name: `${req.query.first} ${req.query.last}`});
+	res.json({name: `${req.body.first} ${req.body.last}`});
 });
 // This would be part of the basic setup of an Express app
 // but to allow FCC to run tests, the server is already active
